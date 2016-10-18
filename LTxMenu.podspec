@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+类似支付宝、微信朋友圈、QQ空间等社交应用中的点击列表下拉按钮，展示更多功能(例如隐藏、举报、分享等).
                    DESC
 
   s.homepage     = "https://github.com/l900416/LTxMenu"
