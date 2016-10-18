@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LTxMenu"
-  s.version      = "0.0.1"
+  s.version      = “1.0.0”
   s.summary      = "类似支付宝、微信朋友圈、QQ空间等社交应用中的点击列表下拉按钮，展示更多功能."
 
   # This description is used to generate tags and improve search results.
