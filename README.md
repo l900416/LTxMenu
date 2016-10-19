@@ -3,16 +3,16 @@
 
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.gif)<br>
 
-##开始使用
-### 将LTxMenu文件夹中代码拖拽到工程
-### pod依赖
+####开始使用
+###### 将LTxMenu文件夹中代码拖拽到工程
+###### pod依赖
 
 
 ###使用说明
 ```Objective-C
 @property (nonatomic, strong)LTxMenuView* menuView;
 ```
-####懒得写协议😄，所以使用block的形式：
+懒得写协议😄，所以使用block的形式：
 ```Objective-C
     _menuView = [[LTxMenuView alloc] init];//初始化
     __weak __typeof(self) weakSelf = self;
