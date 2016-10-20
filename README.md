@@ -1,33 +1,38 @@
 # LTxMenu
-类似支付宝、微信朋友圈、QQ空间等社交应用中的点击列表下拉按钮，展示更多功能
+Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . click a drop-down button  to display more functions
 
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.gif)<br>
 
-####开始使用
-###### 将LTxMenu文件夹中代码拖拽到工程
-###### pod依赖
+###Why
+In Facebook News Feed , Alipay Life ,   QZone and other social applications , they all contain a function drop-down button which would show a list of more functions when taped . 
+I didn’t find any on GitHub , so I wrote  a similar UI controls myself using Objective-C. Reference : https://github.com/kolyvan/kxmenu
 
 
-###使用说明
+###Get Start
+> * Drag the file to the project
+> * pod LTxMenu
+
+
+###How To Use
 ```Objective-C
 @property (nonatomic, strong)LTxMenuView* menuView;
 ```
-懒得写协议😄，所以使用block的形式：
+I was too lazy to write a protocol😄，Use callback methods：
 ```Objective-C
-    _menuView = [[LTxMenuView alloc] init];//初始化
+    _menuView = [[LTxMenuView alloc] init];//init
     __weak __typeof(self) weakSelf = self;
-    _menuView.numberOfRows = ^(){//行数
+    _menuView.numberOfRows = ^(){//row numbers
         return (int)weakSelf.menuItems.count;
     };
-    _menuView.heightForRow = ^(NSInteger row){//行高度
+    _menuView.heightForRow = ^(NSInteger row){//height of a row
         return 50.f;
     };
     
-    _menuView.rowAtIndex = ^(NSInteger row){//每行显示的内容
+    _menuView.rowAtIndex = ^(NSInteger row){//the content of a row
         NSDictionary* menuItem = [weakSelf.menuItems objectAtIndex:row];
         return [LTxMenuItem menuItemWithImage:[menuItem objectForKey:@"image"]
                                         title:[menuItem objectForKey:@"title"]
-                                rightBtnItems:[menuItem objectForKey:@"more"]
+                                rightBtnItems:[menuItem objectForKey:@"more"]//An array contains subClass of UIView
                                      tapBlock:^(NSString *identifier) {
                                          NSLog(@"tap at %@",identifier);
                                          __strong __typeof(weakSelf)strongSelf = weakSelf;
@@ -38,11 +43,11 @@
                      fromRect:sender.frame];
 ```
 
-## iOS 版本要求
+### Deployment
 7.0
 
-## Licence
+### Licence
 MIT
 
-## 其他
-email：l900416@163.com
+### email
+l900416@163.com
