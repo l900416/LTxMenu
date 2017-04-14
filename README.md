@@ -1,19 +1,23 @@
 # LTxMenu
+
 Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . click a drop-down button  to display more functions
 
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.gif)<br>
 
-###Why
+### Why
+
 In Facebook News Feed , Alipay Life ,   QZone and other social applications , they all contain a function drop-down button which would show a list of more functions when taped . 
 I didn’t find any on GitHub , so I wrote  a similar UI controls myself using Objective-C. Reference : https://github.com/kolyvan/kxmenu
 
 
-###Get Start
+### Get Start
+
 > * Drag the file to the project
 > * pod LTxMenu
 
 
-###How To Use
+### How To Use
+
 ```Objective-C
 @property (nonatomic, strong)LTxMenuView* menuView;
 ```
