@@ -3,7 +3,7 @@
 //  LTxMenuDemoUITests
 //
 //  Created by liangtong on 2016/10/18.
-//  Copyright © 2016年 COM.SIPPR.CN. All rights reserved.
+//  Copyright © 2016年 com.liangtong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

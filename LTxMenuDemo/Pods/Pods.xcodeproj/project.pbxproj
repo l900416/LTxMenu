@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A648ED21C35455BB0D484AC4D0702E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		1C688C461C1B7D323B58604C9D2E2264 /* LTxMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D4854E4B74F6B497ADF2F21C4551B /* LTxMenu-dummy.m */; };
+		65E9C8D0FE7A84DE35B3C6A3464FCF60 /* LTxMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 874A95661A759E00FDAC57E8A71845DB /* LTxMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72930499EC05D9D2E9052321D2E22D6E /* Pods-LTxMenuDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5425218AAAE2EEFC715E0B01D879A5 /* Pods-LTxMenuDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F9E5CB71C5C3835F53706C606F0250 /* Pods-LTxMenuDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F061D4A9E144233FF390590B669F2 /* Pods-LTxMenuDemo-dummy.m */; };
+		7F8F17F207CB767D9937EE29E6B33CF8 /* LTxMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F34B9E94D4433A65A6AF08339C5B9D /* LTxMenuView.m */; };
+		DFD5EDBC3BB85FE99BC3D6F7A8BD881A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EC352CD5D9D80FD3E8F10A11A14E9A03 /* LTxMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE4FFD3298BBF96E716B7CB44B7255A /* LTxMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE004AB6B672B048E6AF24051922F35F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B6FEDC32C715BD27F22FB9EC9F00FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E2CABBA8DFE2BC4EA3D8467FAC2D63;
+			remoteInfo = LTxMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE36D922E8BC192727F8B66344E02AB /* Pods-LTxMenuDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTxMenuDemo.modulemap"; sourceTree = "<group>"; };
+		0E03C707AEBB4E569E5D30CA86515EB3 /* LTxMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTxMenu.modulemap; sourceTree = "<group>"; };
+		2F6D4854E4B74F6B497ADF2F21C4551B /* LTxMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTxMenu-dummy.m"; sourceTree = "<group>"; };
+		31C7318D350B7C9407B8179B072527BC /* LTxMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTxMenu.framework; path = LTxMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE4FFD3298BBF96E716B7CB44B7255A /* LTxMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxMenu-umbrella.h"; sourceTree = "<group>"; };
+		40847E3625ACAB3E1315D6FF2DEABAF8 /* Pods-LTxMenuDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTxMenuDemo-frameworks.sh"; sourceTree = "<group>"; };
+		49202977C77F9102847399F204D9E119 /* Pods-LTxMenuDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTxMenuDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B511EDD63262587AD411794A09C546B /* Pods_LTxMenuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTxMenuDemo.framework; path = "Pods-LTxMenuDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65973D4E85115B5162BCFBBB778CBF39 /* Pods-LTxMenuDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTxMenuDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DFDCA12F38241840122177B3A38D2D7 /* LTxMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTxMenu-prefix.pch"; sourceTree = "<group>"; };
+		82DC2AA8D2112EBF5FC937497F31B188 /* LTxMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTxMenu.xcconfig; sourceTree = "<group>"; };
+		8398C1F7C611CF9F9478A858A26E4388 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874A95661A759E00FDAC57E8A71845DB /* LTxMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTxMenuView.h; path = LTxMenu/LTxMenuView.h; sourceTree = "<group>"; };
+		8B5425218AAAE2EEFC715E0B01D879A5 /* Pods-LTxMenuDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTxMenuDemo-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3F061D4A9E144233FF390590B669F2 /* Pods-LTxMenuDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTxMenuDemo-dummy.m"; sourceTree = "<group>"; };
+		9E9CB8BBB62AB573EF0FBC3139A05072 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7D9A18D08255563A36675EA0A9EDD2B /* Pods-LTxMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CC0FB8951B03D5412C7F08F923470718 /* Pods-LTxMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTxMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4F34B9E94D4433A65A6AF08339C5B9D /* LTxMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTxMenuView.m; path = LTxMenu/LTxMenuView.m; sourceTree = "<group>"; };
+		ED19BD55F7B096929AD0CFADEBAADD99 /* Pods-LTxMenuDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTxMenuDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0944CDA8EC980CC16D27D27E2EF641C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE004AB6B672B048E6AF24051922F35F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE98285326F3895F900953AA53B75D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD5EDBC3BB85FE99BC3D6F7A8BD881A /* Foundation.framework in Frameworks */,
+				0A648ED21C35455BB0D484AC4D0702E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046D8DF0F803305528AB73FF18DA9111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C7318D350B7C9407B8179B072527BC /* LTxMenu.framework */,
+				5B511EDD63262587AD411794A09C546B /* Pods_LTxMenuDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DEAF14EE95F0EFD27D4E9CD4951097 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8398C1F7C611CF9F9478A858A26E4388 /* Info.plist */,
+				0E03C707AEBB4E569E5D30CA86515EB3 /* LTxMenu.modulemap */,
+				82DC2AA8D2112EBF5FC937497F31B188 /* LTxMenu.xcconfig */,
+				2F6D4854E4B74F6B497ADF2F21C4551B /* LTxMenu-dummy.m */,
+				7DFDCA12F38241840122177B3A38D2D7 /* LTxMenu-prefix.pch */,
+				3EE4FFD3298BBF96E716B7CB44B7255A /* LTxMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTxMenu";
+			sourceTree = "<group>";
+		};
+		3E4DA0CFCE838F80C2E457C9D4C9E857 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8469196555B03295B6676596C6374B14 /* Pods-LTxMenuDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F8220CF538BEA6A92CA35F439722AFF /* LTxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				874A95661A759E00FDAC57E8A71845DB /* LTxMenuView.h */,
+				E4F34B9E94D4433A65A6AF08339C5B9D /* LTxMenuView.m */,
+				11DEAF14EE95F0EFD27D4E9CD4951097 /* Support Files */,
+			);
+			name = LTxMenu;
+			path = LTxMenu;
+			sourceTree = "<group>";
+		};
+		7ADC5C7C328B58D3C31A82B5C212613C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F8220CF538BEA6A92CA35F439722AFF /* LTxMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7ADC5C7C328B58D3C31A82B5C212613C /* Pods */,
+				046D8DF0F803305528AB73FF18DA9111 /* Products */,
+				3E4DA0CFCE838F80C2E457C9D4C9E857 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8469196555B03295B6676596C6374B14 /* Pods-LTxMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9E9CB8BBB62AB573EF0FBC3139A05072 /* Info.plist */,
+				0AE36D922E8BC192727F8B66344E02AB /* Pods-LTxMenuDemo.modulemap */,
+				49202977C77F9102847399F204D9E119 /* Pods-LTxMenuDemo-acknowledgements.markdown */,
+				65973D4E85115B5162BCFBBB778CBF39 /* Pods-LTxMenuDemo-acknowledgements.plist */,
+				9E3F061D4A9E144233FF390590B669F2 /* Pods-LTxMenuDemo-dummy.m */,
+				40847E3625ACAB3E1315D6FF2DEABAF8 /* Pods-LTxMenuDemo-frameworks.sh */,
+				ED19BD55F7B096929AD0CFADEBAADD99 /* Pods-LTxMenuDemo-resources.sh */,
+				8B5425218AAAE2EEFC715E0B01D879A5 /* Pods-LTxMenuDemo-umbrella.h */,
+				CC0FB8951B03D5412C7F08F923470718 /* Pods-LTxMenuDemo.debug.xcconfig */,
+				B7D9A18D08255563A36675EA0A9EDD2B /* Pods-LTxMenuDemo.release.xcconfig */,
+			);
+			name = "Pods-LTxMenuDemo";
+			path = "Target Support Files/Pods-LTxMenuDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C39EE81273000C6902158134C6C67B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC352CD5D9D80FD3E8F10A11A14E9A03 /* LTxMenu-umbrella.h in Headers */,
+				65E9C8D0FE7A84DE35B3C6A3464FCF60 /* LTxMenuView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE9B5598EEDEE7F9F8B7BB37E254FFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72930499EC05D9D2E9052321D2E22D6E /* Pods-LTxMenuDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		599D4F20CB950548149A825EF073E772 /* Pods-LTxMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994F85217BCD76358C4353F47A4909B8 /* Build configuration list for PBXNativeTarget "Pods-LTxMenuDemo" */;
+			buildPhases = (
+				52FD23504D222F8867D3BC91BA656A0E /* Sources */,
+				0944CDA8EC980CC16D27D27E2EF641C3 /* Frameworks */,
+				4CE9B5598EEDEE7F9F8B7BB37E254FFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ABB8878699045DF9AC556AF2318130E /* PBXTargetDependency */,
+			);
+			name = "Pods-LTxMenuDemo";
+			productName = "Pods-LTxMenuDemo";
+			productReference = 5B511EDD63262587AD411794A09C546B /* Pods_LTxMenuDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76E2CABBA8DFE2BC4EA3D8467FAC2D63 /* LTxMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312A449F874B244AAF2D0545C62DEE88 /* Build configuration list for PBXNativeTarget "LTxMenu" */;
+			buildPhases = (
+				5A5E9C475886BD588D4B896BEC61CF09 /* Sources */,
+				DE98285326F3895F900953AA53B75D09 /* Frameworks */,
+				1C39EE81273000C6902158134C6C67B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTxMenu;
+			productName = LTxMenu;
+			productReference = 31C7318D350B7C9407B8179B072527BC /* LTxMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 046D8DF0F803305528AB73FF18DA9111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E2CABBA8DFE2BC4EA3D8467FAC2D63 /* LTxMenu */,
+				599D4F20CB950548149A825EF073E772 /* Pods-LTxMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FD23504D222F8867D3BC91BA656A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F9E5CB71C5C3835F53706C606F0250 /* Pods-LTxMenuDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E9C475886BD588D4B896BEC61CF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C688C461C1B7D323B58604C9D2E2264 /* LTxMenu-dummy.m in Sources */,
+				7F8F17F207CB767D9937EE29E6B33CF8 /* LTxMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ABB8878699045DF9AC556AF2318130E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTxMenu;
+			target = 76E2CABBA8DFE2BC4EA3D8467FAC2D63 /* LTxMenu */;
+			targetProxy = 77B6FEDC32C715BD27F22FB9EC9F00FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3404DC3885B850171D1D9436AA4A54DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DC2AA8D2112EBF5FC937497F31B188 /* LTxMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTxMenu/LTxMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTxMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTxMenu/LTxMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTxMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A8DE73CD29BAF3342B4153EEAA89FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0FB8951B03D5412C7F08F923470718 /* Pods-LTxMenuDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LTxMenuDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LTxMenuDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B630E3599A587667036A31947F609A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D9A18D08255563A36675EA0A9EDD2B /* Pods-LTxMenuDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LTxMenuDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LTxMenuDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE677DE67BF80A95F9AB1CA690A4F586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DC2AA8D2112EBF5FC937497F31B188 /* LTxMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTxMenu/LTxMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTxMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTxMenu/LTxMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTxMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312A449F874B244AAF2D0545C62DEE88 /* Build configuration list for PBXNativeTarget "LTxMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3404DC3885B850171D1D9436AA4A54DC /* Debug */,
+				FE677DE67BF80A95F9AB1CA690A4F586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994F85217BCD76358C4353F47A4909B8 /* Build configuration list for PBXNativeTarget "Pods-LTxMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8DE73CD29BAF3342B4153EEAA89FC /* Debug */,
+				B630E3599A587667036A31947F609A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

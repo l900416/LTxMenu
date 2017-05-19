@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		275B8AB11ECE79C900C95716 /* LTxMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275B8AB01ECE79C900C95716 /* LTxMenuView.m */; };
+		19B2F55B20A612824CEA3A8D /* Pods_LTxMenuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94B163BD97EA9CEB74F9CE4 /* Pods_LTxMenuDemo.framework */; };
 		279A37631DB5CF09002550FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37621DB5CF09002550FA /* main.m */; };
 		279A37661DB5CF09002550FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37651DB5CF09002550FA /* AppDelegate.m */; };
 		279A37691DB5CF09002550FA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37681DB5CF09002550FA /* FirstViewController.m */; };
@@ -39,8 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		275B8AAF1ECE79C900C95716 /* LTxMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenuView.h; sourceTree = "<group>"; };
-		275B8AB01ECE79C900C95716 /* LTxMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenuView.m; sourceTree = "<group>"; };
+		09482E00B0CDD210C330E02B /* Pods-LTxMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTxMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
 		279A375E1DB5CF09002550FA /* LTxMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTxMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279A37621DB5CF09002550FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		279A37641DB5CF09002550FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +61,8 @@
 		279A379F1DB5D1D6002550FA /* LTxMenuTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenuTestTableViewCell.h; sourceTree = "<group>"; };
 		279A37A01DB5D1D6002550FA /* LTxMenuTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenuTestTableViewCell.m; sourceTree = "<group>"; };
 		279A37A11DB5D1D6002550FA /* LTxMenuTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTxMenuTestTableViewCell.xib; sourceTree = "<group>"; };
+		90E091207D886344EFC1ADFB /* Pods-LTxMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTxMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F94B163BD97EA9CEB74F9CE4 /* Pods_LTxMenuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTxMenuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B2F55B20A612824CEA3A8D /* Pods_LTxMenuDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +98,8 @@
 				279A377D1DB5CF09002550FA /* LTxMenuDemoTests */,
 				279A37881DB5CF09002550FA /* LTxMenuDemoUITests */,
 				279A375F1DB5CF09002550FA /* Products */,
+				4FFB3AF2F295101BA1BEEEAA /* Pods */,
+				5370B2C3EFC570F8D55A273C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				279A379E1DB5D1C6002550FA /* view */,
-				279A37971DB5CF48002550FA /* LTxMenu */,
 				279A37641DB5CF09002550FA /* AppDelegate.h */,
 				279A37651DB5CF09002550FA /* AppDelegate.m */,
 				279A37671DB5CF09002550FA /* FirstViewController.h */,
@@ -155,15 +158,6 @@
 			path = LTxMenuDemoUITests;
 			sourceTree = "<group>";
 		};
-		279A37971DB5CF48002550FA /* LTxMenu */ = {
-			isa = PBXGroup;
-			children = (
-				275B8AAF1ECE79C900C95716 /* LTxMenuView.h */,
-				275B8AB01ECE79C900C95716 /* LTxMenuView.m */,
-			);
-			path = LTxMenu;
-			sourceTree = "<group>";
-		};
 		279A379E1DB5D1C6002550FA /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +168,23 @@
 			name = view;
 			sourceTree = "<group>";
 		};
+		4FFB3AF2F295101BA1BEEEAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E091207D886344EFC1ADFB /* Pods-LTxMenuDemo.debug.xcconfig */,
+				09482E00B0CDD210C330E02B /* Pods-LTxMenuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5370B2C3EFC570F8D55A273C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F94B163BD97EA9CEB74F9CE4 /* Pods_LTxMenuDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 279A378E1DB5CF09002550FA /* Build configuration list for PBXNativeTarget "LTxMenuDemo" */;
 			buildPhases = (
+				65E660E0EA6D8114E5666441 /* [CP] Check Pods Manifest.lock */,
 				279A375A1DB5CF09002550FA /* Sources */,
 				279A375B1DB5CF09002550FA /* Frameworks */,
 				279A375C1DB5CF09002550FA /* Resources */,
+				ACC2E06CDBB8324DBC4BFEAC /* [CP] Embed Pods Frameworks */,
+				1E6A412BD1CA1FD695ABBF36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,7 +255,6 @@
 				TargetAttributes = {
 					279A375D1DB5CF09002550FA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = U4Y5XJ6M4W;
 					};
 					279A37791DB5CF09002550FA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -301,12 +314,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6A412BD1CA1FD695ABBF36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E660E0EA6D8114E5666441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC2E06CDBB8324DBC4BFEAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTxMenuDemo/Pods-LTxMenuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		279A375A1DB5CF09002550FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275B8AB11ECE79C900C95716 /* LTxMenuView.m in Sources */,
 				279A376C1DB5CF09002550FA /* SecondViewController.m in Sources */,
 				279A37A21DB5D1D6002550FA /* LTxMenuTestTableViewCell.m in Sources */,
 				279A37661DB5CF09002550FA /* AppDelegate.m in Sources */,
@@ -452,26 +512,28 @@
 		};
 		279A378F1DB5CF09002550FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E091207D886344EFC1ADFB /* Pods-LTxMenuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U4Y5XJ6M4W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LTxMenuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eep.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangtong.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		279A37901DB5CF09002550FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09482E00B0CDD210C330E02B /* Pods-LTxMenuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U4Y5XJ6M4W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LTxMenuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eep.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liangtong.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

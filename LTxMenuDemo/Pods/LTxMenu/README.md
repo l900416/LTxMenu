@@ -2,10 +2,10 @@
 
 Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . click a drop-down button  to display more functions
 
-![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.png)
-![](https://github.com/l900416/LTxMenu/blob/master/screenshots/2.png)
-![](https://github.com/l900416/LTxMenu/blob/master/screenshots/3.png)
-![](https://github.com/l900416/LTxMenu/blob/master/screenshots/4.png)
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/2.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/3.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/4.png)<br>
 
 ### Why
 

@@ -3,7 +3,7 @@
 //  EMooc
 //
 //  Created by liangtong on 16/8/23.
-//  Copyright © 2016年 COM.SIPPR.CN. All rights reserved.
+//  Copyright © 2016年 com.liangtong. All rights reserved.
 //
 
 #import "LTxMenuTestTableViewCell.h"
