@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275B8AB11ECE79C900C95716 /* LTxMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275B8AB01ECE79C900C95716 /* LTxMenuView.m */; };
 		279A37631DB5CF09002550FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37621DB5CF09002550FA /* main.m */; };
 		279A37661DB5CF09002550FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37651DB5CF09002550FA /* AppDelegate.m */; };
 		279A37691DB5CF09002550FA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37681DB5CF09002550FA /* FirstViewController.m */; };
@@ -16,8 +17,6 @@
 		279A37741DB5CF09002550FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279A37721DB5CF09002550FA /* LaunchScreen.storyboard */; };
 		279A377F1DB5CF09002550FA /* LTxMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A377E1DB5CF09002550FA /* LTxMenuDemoTests.m */; };
 		279A378A1DB5CF09002550FA /* LTxMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37891DB5CF09002550FA /* LTxMenuDemoUITests.m */; };
-		279A379C1DB5CF48002550FA /* LTxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37991DB5CF48002550FA /* LTxMenu.m */; };
-		279A379D1DB5CF48002550FA /* LTxMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A379B1DB5CF48002550FA /* LTxMenuItem.m */; };
 		279A37A21DB5D1D6002550FA /* LTxMenuTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A37A01DB5D1D6002550FA /* LTxMenuTestTableViewCell.m */; };
 		279A37A31DB5D1D6002550FA /* LTxMenuTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279A37A11DB5D1D6002550FA /* LTxMenuTestTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -40,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275B8AAF1ECE79C900C95716 /* LTxMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenuView.h; sourceTree = "<group>"; };
+		275B8AB01ECE79C900C95716 /* LTxMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenuView.m; sourceTree = "<group>"; };
 		279A375E1DB5CF09002550FA /* LTxMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTxMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279A37621DB5CF09002550FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		279A37641DB5CF09002550FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,10 +59,6 @@
 		279A37851DB5CF09002550FA /* LTxMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTxMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279A37891DB5CF09002550FA /* LTxMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTxMenuDemoUITests.m; sourceTree = "<group>"; };
 		279A378B1DB5CF09002550FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279A37981DB5CF48002550FA /* LTxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenu.h; sourceTree = "<group>"; };
-		279A37991DB5CF48002550FA /* LTxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenu.m; sourceTree = "<group>"; };
-		279A379A1DB5CF48002550FA /* LTxMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenuItem.h; sourceTree = "<group>"; };
-		279A379B1DB5CF48002550FA /* LTxMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenuItem.m; sourceTree = "<group>"; };
 		279A379F1DB5D1D6002550FA /* LTxMenuTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTxMenuTestTableViewCell.h; sourceTree = "<group>"; };
 		279A37A01DB5D1D6002550FA /* LTxMenuTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTxMenuTestTableViewCell.m; sourceTree = "<group>"; };
 		279A37A11DB5D1D6002550FA /* LTxMenuTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTxMenuTestTableViewCell.xib; sourceTree = "<group>"; };
@@ -161,10 +158,8 @@
 		279A37971DB5CF48002550FA /* LTxMenu */ = {
 			isa = PBXGroup;
 			children = (
-				279A37981DB5CF48002550FA /* LTxMenu.h */,
-				279A37991DB5CF48002550FA /* LTxMenu.m */,
-				279A379A1DB5CF48002550FA /* LTxMenuItem.h */,
-				279A379B1DB5CF48002550FA /* LTxMenuItem.m */,
+				275B8AAF1ECE79C900C95716 /* LTxMenuView.h */,
+				275B8AB01ECE79C900C95716 /* LTxMenuView.m */,
 			);
 			path = LTxMenu;
 			sourceTree = "<group>";
@@ -246,6 +241,7 @@
 				TargetAttributes = {
 					279A375D1DB5CF09002550FA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U4Y5XJ6M4W;
 					};
 					279A37791DB5CF09002550FA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -310,12 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275B8AB11ECE79C900C95716 /* LTxMenuView.m in Sources */,
 				279A376C1DB5CF09002550FA /* SecondViewController.m in Sources */,
 				279A37A21DB5D1D6002550FA /* LTxMenuTestTableViewCell.m in Sources */,
 				279A37661DB5CF09002550FA /* AppDelegate.m in Sources */,
-				279A379C1DB5CF48002550FA /* LTxMenu.m in Sources */,
 				279A37691DB5CF09002550FA /* FirstViewController.m in Sources */,
-				279A379D1DB5CF48002550FA /* LTxMenuItem.m in Sources */,
 				279A37631DB5CF09002550FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,9 +454,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4Y5XJ6M4W;
 				INFOPLIST_FILE = LTxMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eep.LTxMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eep.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -470,9 +467,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4Y5XJ6M4W;
 				INFOPLIST_FILE = LTxMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eep.LTxMenuDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eep.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -542,6 +541,7 @@
 				279A37901DB5CF09002550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279A37911DB5CF09002550FA /* Build configuration list for PBXNativeTarget "LTxMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +550,7 @@
 				279A37931DB5CF09002550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279A37941DB5CF09002550FA /* Build configuration list for PBXNativeTarget "LTxMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +559,7 @@
 				279A37961DB5CF09002550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

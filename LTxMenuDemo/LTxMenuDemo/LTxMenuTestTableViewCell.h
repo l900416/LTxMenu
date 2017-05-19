@@ -10,7 +10,8 @@
 
 @interface LTxMenuTestTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *dateL;
+@property (nonatomic, strong) NSDictionary* cellModel;
+
 
 @property (nonatomic,copy) void(^actionBlock)();
 

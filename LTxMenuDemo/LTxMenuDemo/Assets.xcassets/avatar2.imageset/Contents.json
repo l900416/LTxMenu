@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ic_wechat_zone.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ic_wechat_zone@2x.png",
+      "filename" : "avatar2@2x.png",
       "scale" : "2x"
     },
     {

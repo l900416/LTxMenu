@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -15,18 +18,21 @@
             <rect key="frame" x="0.0" y="0.0" width="454" height="157"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="454" height="156.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="454" height="156.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpq-DA-tX8">
+                        <rect key="frame" x="0.0" y="0.0" width="454" height="153.5"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user_gray_header" translatesAutoresizingMaskIntoConstraints="NO" id="wCd-xC-ZFF">
+                                <rect key="frame" x="8" y="2" width="36" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wCd-xC-ZFF" secondAttribute="height" multiplier="1:1" id="V1s-zO-q8C"/>
                                     <constraint firstAttribute="width" constant="36" id="hK3-SM-5Mb"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="liangtong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-OI-GPP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-OI-GPP">
+                                <rect key="frame" x="46" y="4.5" width="341" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="NRL-id-uOL"/>
                                 </constraints>
@@ -34,36 +40,37 @@
                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10-18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfc-U0-SDm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfc-U0-SDm">
+                                <rect key="frame" x="46" y="25.5" width="6" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg2-cZ-3gz">
+                                <rect key="frame" x="390" y="4.5" width="60" height="31.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="5gv-Wc-S2B"/>
                                 </constraints>
                                 <state key="normal" image="ic_more"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dy2-BQ-2qS" userLabel="line">
+                                <rect key="frame" x="38" y="43" width="396" height="1"/>
                                 <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="BZY-St-J8E"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="INb-xw-LeI"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-c9-MVO" userLabel="content">
-                                <string key="text">	在微信朋友圈，QQ空间，支付宝，Facebook等众多社交平台上都有点击展示更多功能按钮的UI。在GitHub上木有找到现成的，想在项目中添加该功能，就写了个类似的UI控件。
-	初版使用Objective-C编写，后续再根据需求开放接口，更新功能。
-参照https://github.com/kolyvan/kxmenu</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-c9-MVO" userLabel="content">
+                                <rect key="frame" x="28" y="49" width="418" height="94.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Dy2-BQ-2qS" firstAttribute="leading" secondItem="kpq-DA-tX8" secondAttribute="leading" constant="20" id="6f4-ZJ-wDU"/>
+                            <constraint firstItem="Dy2-BQ-2qS" firstAttribute="leading" secondItem="kpq-DA-tX8" secondAttribute="leading" constant="38" id="6f4-ZJ-wDU"/>
                             <constraint firstItem="cg2-cZ-3gz" firstAttribute="centerY" secondItem="wCd-xC-ZFF" secondAttribute="centerY" id="9VV-Qq-Qy1"/>
                             <constraint firstAttribute="trailing" secondItem="cg2-cZ-3gz" secondAttribute="trailing" constant="4" id="K0b-gK-e1g"/>
                             <constraint firstItem="wCd-xC-ZFF" firstAttribute="top" secondItem="kpq-DA-tX8" secondAttribute="top" constant="2" id="K35-EM-qIM"/>
@@ -73,12 +80,12 @@
                             <constraint firstItem="9LV-OI-GPP" firstAttribute="centerY" secondItem="wCd-xC-ZFF" secondAttribute="centerY" constant="-5" id="QKp-v3-UMY"/>
                             <constraint firstAttribute="trailing" secondItem="4fG-c9-MVO" secondAttribute="trailing" constant="8" id="VkY-cn-zjZ"/>
                             <constraint firstItem="wCd-xC-ZFF" firstAttribute="leading" secondItem="kpq-DA-tX8" secondAttribute="leading" constant="8" id="XuR-fg-eIO"/>
-                            <constraint firstAttribute="bottom" secondItem="4fG-c9-MVO" secondAttribute="bottom" constant="4" id="ffm-Q4-YBV"/>
+                            <constraint firstAttribute="bottom" secondItem="4fG-c9-MVO" secondAttribute="bottom" constant="10" id="ffm-Q4-YBV"/>
                             <constraint firstItem="zfc-U0-SDm" firstAttribute="leading" secondItem="9LV-OI-GPP" secondAttribute="leading" id="fm4-rM-3wq"/>
-                            <constraint firstItem="4fG-c9-MVO" firstAttribute="leading" secondItem="kpq-DA-tX8" secondAttribute="leading" constant="8" id="jGx-yh-Chu"/>
+                            <constraint firstItem="4fG-c9-MVO" firstAttribute="leading" secondItem="kpq-DA-tX8" secondAttribute="leading" constant="28" id="jGx-yh-Chu"/>
                             <constraint firstItem="cg2-cZ-3gz" firstAttribute="leading" secondItem="9LV-OI-GPP" secondAttribute="trailing" constant="3" id="kgr-Ws-cwp"/>
                             <constraint firstItem="zfc-U0-SDm" firstAttribute="top" secondItem="9LV-OI-GPP" secondAttribute="bottom" id="sap-jc-P2e"/>
-                            <constraint firstItem="4fG-c9-MVO" firstAttribute="top" secondItem="Dy2-BQ-2qS" secondAttribute="bottom" constant="3" id="xhN-FF-tDb"/>
+                            <constraint firstItem="4fG-c9-MVO" firstAttribute="top" secondItem="Dy2-BQ-2qS" secondAttribute="bottom" constant="5" id="xhN-FF-tDb"/>
                             <constraint firstAttribute="trailing" secondItem="Dy2-BQ-2qS" secondAttribute="trailing" constant="20" id="xpj-LA-ntU"/>
                         </constraints>
                     </view>
@@ -93,7 +100,10 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="actionBtn" destination="cg2-cZ-3gz" id="7XU-py-dLz"/>
+                <outlet property="avatarIV" destination="wCd-xC-ZFF" id="i5v-De-Plp"/>
+                <outlet property="contentL" destination="4fG-c9-MVO" id="Nsn-uk-0Cm"/>
                 <outlet property="dateL" destination="zfc-U0-SDm" id="LrX-Ih-zXr"/>
+                <outlet property="nameL" destination="9LV-OI-GPP" id="DEw-sX-nO1"/>
             </connections>
             <point key="canvasLocation" x="345" y="336.5"/>
         </tableViewCell>

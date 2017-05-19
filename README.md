@@ -2,7 +2,10 @@
 
 Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . click a drop-down button  to display more functions
 
-![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.gif)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/2.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/3.png)<br>
+![](https://github.com/l900416/LTxMenu/blob/master/screenshots/4.png)<br>
 
 ### Why
 
@@ -18,33 +21,76 @@ I didn’t find any on GitHub , so I wrote  a similar UI controls myself using O
 
 ### How To Use
 
+#### Create 
+
 ```Objective-C
-@property (nonatomic, strong)LTxMenuView* menuView;
-```
-I was too lazy to write a protocol😄，Use callback methods：
+/**
+* class instance method with dataSource and delegate. you can also create with [[LTxMenuView alloc] init] then set the dataSource and the delegate.
+**/
++ (instancetype)instanceWithDataSource:(id <LTxMenuViewDataSource>)dataSource delegate:(id <LTxMenuViewDelegate>)delegate;
+/**
+* show menuView in viewController from a special position.
+* @param viewController the menuview 's container
+* @param position the menuview 's arrow direction
+**/
+- (void)showMenu:(UIViewController*)viewController from:(CGRect)position;
+/**
+* hide the menuview. usually you did not need to call this method
+**/
+- (void)dismissMenu;
+
+```   
+
+#### DataSource && Delegate 
+
 ```Objective-C
-    _menuView = [[LTxMenuView alloc] init];//init
-    __weak __typeof(self) weakSelf = self;
-    _menuView.numberOfRows = ^(){//row numbers
-        return (int)weakSelf.menuItems.count;
-    };
-    _menuView.heightForRow = ^(NSInteger row){//height of a row
-        return 50.f;
-    };
-    
-    _menuView.rowAtIndex = ^(NSInteger row){//the content of a row
-        NSDictionary* menuItem = [weakSelf.menuItems objectAtIndex:row];
-        return [LTxMenuItem menuItemWithImage:[menuItem objectForKey:@"image"]
-                                        title:[menuItem objectForKey:@"title"]
-                                rightBtnItems:[menuItem objectForKey:@"more"]//An array contains subClass of UIView
-                                     tapBlock:^(NSString *identifier) {
-                                         NSLog(@"tap at %@",identifier);
-                                         __strong __typeof(weakSelf)strongSelf = weakSelf;
-                                         [strongSelf.menuView dismissMenu];
-                                     }];
-    };
-    [_menuView showMenuInView:self.view
-                     fromRect:sender.frame];
+
+#pragma mark LTxMenuViewDelegate
+@protocol LTxMenuViewDelegate<NSObject>
+
+@optional
+/**
+* called when a specified index was selected.
+**/
+-(void)didSelectRowAtIndex:(NSInteger)index;
+
+/**
+* called when a specified accessoryView was selected.
+**/
+-(void)didSelectAccessoryView:(UIView*)accessoryView
+atIndex:(NSInteger)index;
+@end
+
+#pragma mark LTxMenuViewDataSource
+@protocol LTxMenuViewDataSource<NSObject>
+
+@required
+/**
+* Returns the number of rows
+**/
+- (NSInteger)numberOfRows;
+
+@optional
+/**
+* Returns the height of specified index. default value is 50.
+**/
+- (CGFloat)heightForRowAtIndex:(NSInteger)index;
+
+/**
+* Returns the attributedTitle of specified index.
+**/
+- (NSAttributedString*)attributedTitleForRowAtIndex:(NSInteger)index;
+
+/**
+* Returns the image of specified index.
+**/
+- (UIImage*)imageForRowAtIndex:(NSInteger)index;
+
+/**
+* Returns the accessoryViews placed at the end of specified index.
+**/
+- (NSArray<UIView*>*)accessoryViewsAtIndex:(NSInteger)index;
+@end;
 ```
 
 ### Deployment
