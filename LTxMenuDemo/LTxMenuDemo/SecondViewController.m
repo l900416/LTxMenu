@@ -79,10 +79,10 @@
     return 4;
 }
 - (CGFloat)heightForRowAtIndex:(NSInteger)index{
-    return 56;
+    return 50;
 }
 - (NSAttributedString*)attributedTitleForRowAtIndex:(NSInteger)index{
-    NSString* title = @[@"Share to",@"Favorite",@"Ignore",@"Other"][index];
+    NSString* title = @[@"Share to",@"Favorite",@"Ignore",@"Custom"][index];
     UIColor* textColor;
     UIFont* textFont = [UIFont systemFontOfSize:17.f];
     if (index == 0) {
@@ -111,12 +111,23 @@
     wechatIV.contentMode = UIViewContentModeCenter;
     UIImageView* wechatZoneIV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_qq_zone"]];
     wechatZoneIV.contentMode = UIViewContentModeCenter;
+    UISwitch * tempSwitch = [[UISwitch alloc] init];
+    tempSwitch.onTintColor = [UIColor colorWithRed:59/255.0 green:145/255.0 blue:233/255.0 alpha:0.8];
+    [tempSwitch setOn:YES];
+    [tempSwitch addTarget:self action:@selector(switchStatusChanged:) forControlEvents:UIControlEventValueChanged];
     if (index == 0) {
         return @[qqIV,wechatIV,wechatZoneIV];
-    }else if (index == 3){
+    }else if (index == 2) {
         return @[wechatZoneIV];
+    }else if (index == 3){
+        return @[tempSwitch];
     }
     return nil;
+}
+
+# pragma mark - Action
+-(void)switchStatusChanged:(UISwitch *) changedSwitch{
+    NSLog(@"%s",__func__);
 }
 
 #pragma mark LTxMenuViewDelegate

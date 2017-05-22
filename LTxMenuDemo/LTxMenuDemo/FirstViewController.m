@@ -56,6 +56,7 @@
     wechatIV.contentMode = UIViewContentModeCenter;
     UIImageView* wechatZoneIV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_qq_zone"]];
     wechatZoneIV.contentMode = UIViewContentModeCenter;
+    
     if (index == 0) {
         return @[qqIV,wechatIV,wechatZoneIV];
     }
