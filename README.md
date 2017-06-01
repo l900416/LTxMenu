@@ -1,6 +1,6 @@
 # LTxMenu
 
-Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . click a drop-down button  to display more functions
+Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . A popover menu view
 
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.png)
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/2.png)
@@ -28,12 +28,14 @@ I didn’t find any on GitHub , so I wrote  a similar UI controls myself using O
 * class instance method with dataSource and delegate. you can also create with [[LTxMenuView alloc] init] then set the dataSource and the delegate.
 **/
 + (instancetype)instanceWithDataSource:(id <LTxMenuViewDataSource>)dataSource delegate:(id <LTxMenuViewDelegate>)delegate;
+
 /**
 * show menuView in viewController from a special position.
 * @param viewController the menuview 's container
 * @param position the menuview 's arrow direction
 **/
 - (void)showMenu:(UIViewController*)viewController from:(CGRect)position;
+
 /**
 * hide the menuview. usually you did not need to call this method
 **/
@@ -41,7 +43,7 @@ I didn’t find any on GitHub , so I wrote  a similar UI controls myself using O
 
 ```   
 
-#### DataSource && Delegate 
+#### DataSource And Delegate 
 
 ```Objective-C
 
@@ -94,10 +96,10 @@ atIndex:(NSInteger)index;
 ```
 
 ### Deployment
-7.0
+   8.0
 
 ### Licence
-MIT
+   MIT
 
 ### email
-l900416@163.com
+   l900416@163.com
