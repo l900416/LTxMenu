@@ -1,5 +1,11 @@
 # LTxMenu
 
+## [DEPRECATED] New Repo： https://github.com/liangtongdev/LTxPopup
+
+LTxPopupMenu 
+
+---
+
 Similar to Facebook News Feed , Alipay Life ,   QZone and other social applications . A popover menu view
 
 ![](https://github.com/l900416/LTxMenu/blob/master/screenshots/1.png)
